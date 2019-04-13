@@ -1,5 +1,6 @@
 # Remote Desktop setup from fresh image
 **Freshly imaged Rasbian on SD**
+
 Create a file named "ssd" into boot (it's the only dir visible in FIle Explorer)
 
 Create file named "wpa_supplicant.conf" with following content:
