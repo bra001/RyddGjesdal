@@ -1,9 +1,9 @@
-#Remote Desktop setup from fresh image
+# Remote Desktop setup from fresh image
 **Freshly imaged Rasbian on SD**
 Create a file named "ssd" into boot (it's the only dir visible in FIle Explorer)
 Create file named "wpa_supplicant.conf" with following content:
 
-'''
+"""
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 country=US
@@ -13,7 +13,7 @@ network={
 	psk="your-network-WPA/WPA2-security-passphrase"
 	key_mgmt=WPA-PSK
 }
-'''
+"""
 
 Find your raspberry ip-address
 
